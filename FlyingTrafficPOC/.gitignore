@@ -1,0 +1,52 @@
+## --- Xcode ---
+# User-specific settings (tabs, open files, local breakpoints)
+*.xcuserdatad
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+xcuserdata/
+
+# Build artifacts and caches
+DerivedData/
+build/
+*.moved-aside
+*.xcuserstate
+
+# Crash logs and diagnostic files
+*.xcresult
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+## --- Swift Package Manager ---
+# Package resolution caches and build assets
+.build/
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+## --- Dependencies (Optional) ---
+# Uncomment if using CocoaPods
+# Pods/
+# *.xcworkspace
+
+# Uncomment if using Carthage
+# Carthage/Build/
+
+## --- Environment & Security ---
+# Private configuration and API keys
+*.xcconfig
+Secrets.xcconfig
+Secrets.swift
+.env*
+
+## --- Operating System ---
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
